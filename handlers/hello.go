@@ -11,6 +11,7 @@ type Hello struct {
 	l *log.Logger
 }
 
+// NewHello creates a new hello handler with the given logger.
 func NewHello(l *log.Logger) *Hello {
 	return &Hello{l}
 }
